@@ -1,0 +1,25 @@
+html, body {
+	color: #fff;
+}
+
+body {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/images/background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/assets/images/background.jpg', sizingMethod='scale')";
+}
+
+#main {
+	/* For IE 5.5-7 */
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#90000000, endColorstr=#90000000);
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+#more #profile img {
+	width: auto;
+	max-width: inherit;
+	display: inline-block;
+}
+
+#about {
+	margin-top: 30px;
+}

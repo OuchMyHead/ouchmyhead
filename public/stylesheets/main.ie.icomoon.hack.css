@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'ico-hack';
+	src:url('/assets/fonts/icomoon/icomoon.iehack.eot');
+	src:url('/assets/fonts/icomoon/icomoon.iehack.eot?#iefix') format('embedded-opentype'),
+		url('/assets/fonts/icomoon/icomoon.iehack.svg#icomoon') format('svg'),
+		url('/assets/fonts/icomoon/icomoon.iehack.woff') format('woff'),
+		url('/assets/fonts/icomoon/icomoon.iehack.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icomoon {
+    font-family: "ico-hack";
+}
+
+#more.icomoon > li > a {
+	color: transparent;
+}
+
+#more #stackoverflow a {
+    text-indent: 0px;
+}
+
+.icomoon > li a:before {
+	color: #fff;
+	content: attr(data-icon);
+	z-index: 10;
+	position: relative;
+	left: 0.55em;
+	line-height: 2.2em;
+}
+
+#stackoverflow a:before {
+	content: "c";
+}
+
+#linkedin a:before {
+	content: "l";
+}
+
+#twitter a:before {
+	content: "t";
+}
+
+#email a:before {
+	content: "e";
+}

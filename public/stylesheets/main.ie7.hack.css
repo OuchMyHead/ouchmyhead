@@ -1,0 +1,25 @@
+.icomoon {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#more.icomoon > li > a {
+	color: #fff;
+}
+
+#more #profile, #more #profile:hover {
+	margin: 10px;
+}
+
+#more.icomoon > li, #more.icomoon > li > a {
+	display: inline;
+	zoom: 1;
+}
+
+#more li, #more li:hover {
+	width: 180px;
+	margin: 10px;
+}
+
+#more {
+	margin: 50px 0;
+}
